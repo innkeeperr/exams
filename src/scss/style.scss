@@ -1,18 +1,66 @@
+$font-color: #fff;
+$dark-overlay: rgba(0,0,0,0.7);
 
-#cont1{
+body{
+  color: $font-color;
+}
+
+.navbar{
+  opacity: 0.8;
+}
+
+section{
+  background: url('../img/background.jpg') no-repeat;
+  min-height: 670px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+
+  .dark-overlay{
+    background-color: $dark-overlay;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 670px;
+  }
+}
+
+#main-container{
   width: 80%;
-  min-height: 400px;
-  //background-color: #B3E8FF;
+  min-height: 300px;
+}
+
+.registration-inner{
+  padding-top: 150px;
+}
+
+.exams-inner{
+  padding-top: 120px;
+}
+
+#form-section{
+  width: 300px;
+  margin: 0 auto;
+}
+
+.form-group{
+  width: 255px;
+}
+#submitBtn{
+  width: 255px;
+  margin: 0 auto;
+}
+
+
+//LOGIN PAGE
+#submitBtn{
+  width: 255px;
+  margin: 0 auto;
+}
+
+.login-inner{
+  padding-top: 150px;
+  margin-right: 0;
+  margin-left: 0;
 
 }
-/*
-#row1{
-  min-height: 150px;
-  background-color: #6FBAFF;
-}
-/*
-.col{
-  min-height: 130px;
-  background-color: #258AFF;
-}
-*/

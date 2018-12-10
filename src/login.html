@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CDV - Exams</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAVBAR SECTION -->
+  <nav class="navbar navbar-expand-sm bg-primary navbar-dark py-3 fixed-top">
+    <a href="index.html" class="navbar-brand ml-4">CDV Exams</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navCollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navCollapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="registration.html" class="nav-link">Rejestracja</a>
+        </li>
+        <li class="nav-item">
+          <a href="login.html" class="nav-link">Logowanie</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Profil</a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item">Link 1</a>
+            <a href="#" class="dropdown-item">Link 2</a>
+            <a href="#" class="dropdown-item">Link 3</a>
+            <a href="#" class="dropdown-item">Wyloguj</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- LOGIN SECTION -->
+  <section id="login-section">
+    <div class="dark-overlay">
+      <div class="container">
+        <div class="login-inner">
+          <div class="row">
+            <div class="col align-self-center">
+              <form action="">
+                <div class="form-group">
+                  <label for="" class="">Podaj email</label>
+                  <input type="email" class="form-control-lg" id="inputEmail" placeholder="Podaj email">
+                </div>
+                <div class="form-group">
+                  <label for="" class="">Podaj hasło</label>
+                  <input type="password" class="form-control-lg" id="inputPassword" placeholder="********">
+                </div>
+                <div class="form-group">
+                  <input type="submit" class="btn btn-outline-light btn-block" value="Zaloguj się" id="loginBtn">
+                </div>
+                <div class="form-check pt-3">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> Zapamiętaj mnie
+                  </label>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <footer class="page-footer font-small blue bg-primary">
+    <div class="container-fluid text-center text-md-left">
+      <div class="footer-copyright text-center py-3">
+        © 2018 Copyright:
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
